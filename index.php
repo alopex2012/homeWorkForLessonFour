@@ -12,12 +12,7 @@
     <h5>Заняття 4. ООП</h5>
     <hr />
     <?php
-    class Employee
-    {
-        public $name;
-        public $age;
-        public $salary;
-    }
+    include "Employee.php";
 
     $employee1 = new Employee;
     $employee1->name = "John";
